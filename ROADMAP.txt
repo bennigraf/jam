@@ -1,0 +1,31 @@
+Where do I want to go with this?
+
+* build stacks of sound input // audio-files, samples/voices
+	* 4 types (or so): 
+		- songs (for djing...) (with cuemarks, loop-markers, tempo-info)
+		- loops/samples/"voices"/fx (still audio files, tempo-info)
+		- sc-stuff: code that makes sound (ndefs), live editable, reacts to tempo
+		- FXFXFXFXFXFX???
+			- FX stack? Inline vs. bus
+	=> song-player, looper, code
+		\- pitch/tempo + position + vol + cue-control + loop ein/aus
+						\- pitch/tempo + vol + 
+								\- vol/dry-wet + code edit + reset
+	* record stuff from minimixers to stacks!
+	* stacks are intelligent: list stuff that might be interesting in a certain situation on the top
+* main songtempo/bpm, but without bars
+* session management: a session defines content of stacks; have multiple sessions but with the ability to share stack contents between each other
+--> sqlite db? oder nosql???
+
+* loooooper für steuerwerte YAYAYAY -- siehe iPad/lightingding/touchlfo
+-> kommen auch auf einen Stack?
+
+GUI:
+* Stacks: 4x einfache liste, sortiert
+* Für jedes Objekt mini Mixer-Spur
+* 4x Master-Spur mit crossfader
+
+CTRL:
+* Quneo
+* LPD8?
+* iPad/touchOSC?
